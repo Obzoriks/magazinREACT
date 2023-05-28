@@ -1,3 +1,7 @@
 .app {
   background-color: darkseagreen;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
