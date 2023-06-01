@@ -4,3 +4,8 @@
     gap: 1rem;
   
 }
+.price {
+    font-family: initial;
+    color: red;
+    background-color: yellow;
+}
