@@ -1,11 +1,24 @@
-import React from 'react'
+
+import React, {useState} from 'react'
 import Button from '../Button/Button'
 import './Cart.css'
 
 
 const Cart = (props) => {
 
-  const {image, title, desc, price} = props
+  const {
+    image,
+     title,
+      desc,
+       price,
+       bbb,
+       dei
+        }
+          = props
+
+
+
+          
  
   
   return (
@@ -16,13 +29,19 @@ const Cart = (props) => {
         {title}
         </p>
         <p className="desc">
-        {desc}
+       ОПИСАНИЕ: <br></br> {desc}
         </p>
         <p className="price">
         {price}€
         </p>
       </div>
-      <Button titleBtn = 'Рассрочка' />
+      <Button 
+
+     
+      sai = {bbb}
+      titleBtn = 'купить'
+              
+      />
     </div>
   )
 }

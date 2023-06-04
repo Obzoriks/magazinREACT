@@ -1,13 +1,23 @@
 import React from 'react'
 import './Button.css'
 
+
 const Button = (props) => {
-	const {titleBtn} = props
+	
+
+	const {titleBtn,sai } = props
 	return (
-		<button class='full-rounded'>
+		<div className="block">
+			
+			<div className='hehehehe'>
+			
+			<button onClick={sai} class='full-rounded' >
 			<span>{titleBtn}</span>
-			<div class='border full-rounded'></div>
+			<div className='border full-rounded'></div>
 		</button>
+		</div>
+		</div>
+		
 	)
 }
 
